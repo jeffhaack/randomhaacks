@@ -1,0 +1,80 @@
+#header {
+	font-family:Arial, Verdana, sans-serif;
+	font-size:10px;
+	padding: 20px;
+	border: 1px solid #999;
+	width: 300px;
+	display:inline-block;
+}
+
+body {
+	padding:60px 100px;
+}
+
+#haack {
+	font-size:30px;
+/*	line-height:24px;*/
+	margin:0;
+	padding:0;
+}
+
+#phonetic {
+	font-size:16px;
+	/*line-height:16px;*/
+	margin:0;
+	padding:0;
+}
+
+#haack>sup {
+	font-size: 16px;
+}
+
+.part_of_speech {
+	margin-top:14px;
+	font-size: 14px;
+	font-style: italic;
+}
+ol {
+	margin-top:20px;
+	margin-bottom:20px;
+	font-size: 14px;
+	font-style: italic;
+}
+
+/* Thinking about a block approach */
+
+.block {
+	font-family:Arial, Verdana, sans-serif;
+	font-size:10px;
+	padding: 20px;
+	border: 1px solid #999;
+	width: 260px;
+	height: 260px;
+	display:inline-block;
+	margin:0;
+	padding:20px;
+	vertical-align:top;
+/*	background-image: url('images/names_georgia.png');*/
+}
+
+.central_wording {
+	font-size:40px;
+	font-family: Arial, Verdana, sans-serif;
+	vertical-align:center;
+}
+
+ul#display-inline-block-example,
+ul#display-inline-block-example li {
+/* Setting a common base */
+margin: 0;
+padding: 0;
+}
+ 
+ul#display-inline-block-example li {
+display: inline-block;
+width: 100px;
+min-height: 100px;
+background: #ccc;
+vertical-align:top;
+}
+
