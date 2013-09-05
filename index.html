@@ -1,89 +1,26 @@
 ---
 title: random haacks
+layout: home
 ---
 
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-<head>
-	<meta charset="UTF-8">
-	<title>{{ page.title }}</title>
-	<link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet" type="text/css">
-	<link href="{{ site.baseurl }}/assets/css/home.css" rel="stylesheet" type="text/css">
-	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-<!--	<script src="{{ site.baseurl }}/assets/vendor/jquery-1.8.2.min.js"></script>-->
-</head>
-
-<body>
-
-<div id="header">
-	<div id="navbar">
-		<div id="page-title">
-			{{ page.title }}
+<div class="category-wrapper">
+	<h2>Blog</h2>
+	{% for post in site.categories.blog %}
+		<div class="block" style="background-image:url('{{ post.thumbnail }}')" 
+		onmouseover="jQuery(this).find('.post-title').show();"
+		onmouseout="$('.post-title').hide();">
+			<a href="{{ post.url }}"><span class="post-title" hidden>{{ post.title }}<span> </a>
 		</div>
-	</div>
+	{% endfor %}
 </div>
 
-<div id="page-wrapper">
-	<div class="category-wrapper">
-		<h1>Blog</h1>		
-		{% for post in site.categories.blog %}
-			<div class="block" style="background-image:url('{{ post.thumbnail }}')" 
-			onmouseover="jQuery(this).find('.post-title').show();"
-			onmouseout="$('.post-title').hide();">
-				<a href="{{ post.url }}"><span class="post-title" hidden>{{ post.title }}<span> </a>
-			</div>
-		{% endfor %}
-	</div>
-	
-	<div class="category-wrapper">
-		<h1>Projects</h1>
-		{% for post in site.categories.projects %}
-			<div class="block" style="background-image:url('{{ post.thumbnail }}')" 
-			onmouseover="jQuery(this).find('.post-title').show();"
-			onmouseout="$('.post-title').hide();">
-				<a href="{{ post.url }}"><span class="post-title" hidden>{{ post.title }}<span> </a>
-			</div>
-		{% endfor %}
-		
-		<div class="block">
-			The World in Georgian,OpenStreetCasts, OSM Warden, HOT Activities Video, Open Cities Dhaka
+<div class="category-wrapper">
+	<h2>Projects</h2>
+	{% for post in site.categories.projects %}
+		<div class="block" style="background-image:url('{{ post.thumbnail }}')" 
+		onmouseover="jQuery(this).find('.post-title').show();"
+		onmouseout="$('.post-title').hide();">
+			<a href="{{ post.url }}"><span class="post-title" hidden>{{ post.title }}<span> </a>
 		</div>
-
-	</div>
-
+	{% endfor %}
 </div>
-
-<div id="footer">
-	<div id="footer-wrapper">
-		<div class="dictionary-entry" style="float:left">
-			<div class="word">ran·dom</div>
-			<div class="phonetic">/ˈrandəm/</div>
-			<div class="part_of_speech">adjective</div>
-			<div class="definition">
-				<p><b>1.</b>&nbsp;&nbsp; strange, unexpected, or out of the ordinary</p>
-				<p class="lighten">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Those dudes are just so <b>random</b>.</p>
-			</div>
-			<div class="definition">
-				<p><b>2.</b>&nbsp;&nbsp; done in a casual manner often without method</p>
-				<p class="lighten">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"The sample was chosen at <b>random</b>."</p>
-			</div>
-		</div>
-		
-		<div class="dictionary-entry" style="float:right">
-			<div class="word">haack<sup>1</sup></div>
-			<div class="phonetic">/hak/</div>
-			<div class="part_of_speech">noun</div>
-			<div class="definition">
-				<p><b>1.</b>&nbsp;&nbsp; a huge geonerd</p>
-				<p class="lighten">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Jill:&nbsp;&nbsp; That guy's such a <b>haack</b>.</p>
-				<p class="lighten">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jack:&nbsp;&nbsp; I know, he really knows his OSM."</p>
-			</div>
-			<div class="definition">
-				<p><b>2.</b>&nbsp;&nbsp; an unexpected and unprovoked act of dorkiness</p>
-				<p class="lighten">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Those nerds undertook quite a <b>haack</b>."</p>
-			</div>
-		</div>
-	</div>
-</div>
-</body>
-</html>

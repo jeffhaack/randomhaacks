@@ -8,13 +8,15 @@ thumbnail: /assets/images/names_georgia_blog_thumb.png
 
 {{ page.title }}
 ================
-Some time back I came across an <a href="http://spatialanalysis.co.uk/2011/01/whats-in-a-surname/">interesting surname map of the United States</a>. I was particularly intrigued by the the way that the surnames were color-coded by ethnic background.
+<span class="postdate">30 March 2013</span>
 
-<a href="http://spatialanalysis.co.uk/2011/01/whats-in-a-surname/"><img src="/assets/images/surnames_usa.jpg" width="400" alt="USA Surname Map" /></a>
+Some time back I came across an <a href="http://spatialanalysis.co.uk/2011/01/whats-in-a-surname/" target="blank">interesting surname map of the United States</a>. I was particularly intrigued by the the way that the surnames were color-coded by ethnic background.
 
-Having a particular affinity for the country of Georgia (aka საქართველო), I thought it would be interesting and educational to make a similarly styled map of the region.
+<a href="http://spatialanalysis.co.uk/2011/01/whats-in-a-surname/" target="blank"><img src="/assets/images/surnames_usa.jpg" width="400" alt="USA Surname Map" /></a>
 
-Getting the data wasn't all that difficult. The national elections which took place in October 2012 were pretty darn free and fair, and the electoral commission did an excellent and orderly job of managing it all. This also meant that they had quite accurate voter lists, and every voter in the country listed with their district of registration. Some friends at <a href="http://jumpstart.ge">JumpStart Georgia</a> had been monitoring and mapping the results on election day, so they had already pre-processed a bit of the data. Long-story short, a few ruby scripts left me with a nice array of interesting data - the top surnames for each of the sixty-odd districts in Georgia.
+Having a particular affinity for the country of Georgia (aka <span class="smaller">საქართველო</span>), I thought it would be interesting and educational to make a similarly styled map of the region.
+
+Getting the data wasn't all that difficult. The national elections which took place in October 2012 were pretty darn free and fair, and the electoral commission did an excellent and orderly job of managing it all. This also meant that they had quite accurate voter lists, and every voter in the country listed with their district of registration. Some friends at <a href="http://jumpstart.ge" target="blank">JumpStart Georgia</a> had been monitoring and mapping the results on election day, so they had already pre-processed a bit of the data. Long-story short, a few ruby scripts left me with a nice array of interesting data - the top surnames for each of the sixty-odd districts in Georgia.
 
 Along the way I learned some interesting things. For example, that 6.4% of Georgian men are named Giorgi! This wasn't entirely surprising, as shouting "Gio!" in any populated place will surely elicit a great many responses, but having a quantifiable number is pretty cool.
 
