@@ -27,7 +27,7 @@ title: random haacks
 	<div class="category-wrapper">
 		<h1>Blog</h1>		
 		{% for post in site.categories.blog %}
-			<div class="block" style="background-image:url('{{ site.baseurl }}/{{ post.thumbnail }}')" 
+			<div class="block" style="background-image:url('{{ post.thumbnail }}')" 
 			onmouseover="jQuery(this).find('.post-title').show();"
 			onmouseout="$('.post-title').hide();">
 				<a href="{{ post.url }}"><span class="post-title" hidden>{{ post.title }}<span> </a>

@@ -3,7 +3,7 @@ layout: default
 category: projects
 permalink: /projects/open-cities-dhaka
 title: Open Cities Dhaka
-thumbnail: /assets/images/names_georgia.png
+thumbnail: /assets/images/open_cities_dhaka_project_thumb.png
 ---
 
 {{ page.title }}
