@@ -3,16 +3,18 @@ layout: blog
 category: blog
 permalink: /blog/the_most_common_names_in_georgia
 title: The Most Common Names in Georgia
-thumbnail: /assets/images/names_georgia_blog_thumb.png
+thumbnail: /assets/thumbs/names_georgia_blog_thumb.png
 ---
 
 {{ page.title }}
 ================
 <span class="postdate">30 March 2013</span>
 
+[wiki.openstreetmap.org](http://wiki.openstreetmap.org/)
+
 Some time back I came across an <a href="http://spatialanalysis.co.uk/2011/01/whats-in-a-surname/" target="blank">interesting surname map of the United States</a>. I was particularly intrigued by the the way that the surnames were color-coded by ethnic background.
 
-<a href="http://spatialanalysis.co.uk/2011/01/whats-in-a-surname/" target="blank"><img src="/assets/images/surnames_usa.jpg" width="400" alt="USA Surname Map" /></a>
+<a href="http://spatialanalysis.co.uk/2011/01/whats-in-a-surname/" target="blank"><img src="/assets/images/georgia_name_map/surnames_usa.jpg" width="500" alt="USA Surname Map" /></a>
 
 Having a particular affinity for the country of Georgia (aka <span class="smaller">საქართველო</span>), I thought it would be interesting and educational to make a similarly styled map of the region.
 

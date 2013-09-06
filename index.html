@@ -4,7 +4,7 @@ layout: home
 ---
 
 <div class="category-wrapper">
-	<h2>Blog</h2>
+	<h3>Blog</h3>
 	{% for post in site.categories.blog %}
 		<div class="block" style="background-image:url('{{ post.thumbnail }}')" 
 		onmouseover="jQuery(this).find('.post-title').show();"
@@ -15,7 +15,7 @@ layout: home
 </div>
 
 <div class="category-wrapper">
-	<h2>Projects</h2>
+	<h3>Projects</h3>
 	{% for post in site.categories.projects %}
 		<div class="block" style="background-image:url('{{ post.thumbnail }}')" 
 		onmouseover="jQuery(this).find('.post-title').show();"
