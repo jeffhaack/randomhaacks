@@ -7,7 +7,6 @@ A Jekyll Home Page
 
 Todo
 ====
-* add rss
 * organize CSS
 
 

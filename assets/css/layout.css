@@ -298,3 +298,10 @@ code, pre {
 	white-space: nowrap;
 }
 
+.rss {
+	height: 20px;
+	display: inline-block;
+	vertical-align: bottom;
+	padding-left: 8px;
+	padding-bottom: 4px;
+}
