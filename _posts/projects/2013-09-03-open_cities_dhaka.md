@@ -52,6 +52,5 @@ thumbnail: /assets/thumbs/open_cities_dhaka_project_thumb.png
 	</tr>
 
 	</table>
-<p class="smaller">Last updated September 7, 2013</p>
 </div>
 
