@@ -12,12 +12,12 @@ layout: nil
     <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
 
-    {% for post in site.posts %}
+	{% for post in site.categories.blog %}
     <item>
       <title>{{ post.title }}</title>
       <link>http://randomhaacks.com{{ post.url }}</link>
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-      <author>randomhaacks@gmail.com (Jeff)</author>
+      <author>Jeff</author>
       <guid>http://randomhaacks.com{{ post.id }}</guid>
       <description>{{ post.content | xml_escape }}</description>
     </item>
