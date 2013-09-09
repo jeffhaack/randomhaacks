@@ -64,7 +64,8 @@ Geo Geo Data
 would be fun to take all the data i can get my hands on (jumpstart, crrc, etc. and
 put together a bunch of stuff like this http://stateimpact.npr.org/maps/idaho/unemployment/#2012/February/Boundary
 )
-
+https://github.com/mbostock/d3/wiki/Gallery
+fun to play around with d3
 
 
 
