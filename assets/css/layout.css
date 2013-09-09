@@ -309,3 +309,12 @@ code, pre {
 	background-position: right top;*/
 }
 
+#preloadedImages
+{
+    width: 0px;
+    height: 0px;
+    display: inline;
+    background-image: url('../images/rss_small.png');
+
+
+}
