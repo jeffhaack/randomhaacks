@@ -4,8 +4,8 @@ layout: home
 ---
 
 <div class="category-wrapper">
-	<h3>Blog<a href="rss.xml"><img class="rss" src="{{ site.baseurl }}/assets/images/rss_bw.png" onmouseover="jQuery(this).attr('src', '{{ site.baseurl }}/assets/images/rss.png');"
-onmouseout="jQuery(this).attr('src', '{{ site.baseurl }}/assets/images/rss_bw.png');"></a></h3>
+		<h3>Blog<a href="rss.xml"><img class="rss" src="{{ site.baseurl }}/assets/images/rss_bw_small.png" onmouseover="jQuery(this).attr('src', '{{ site.baseurl }}/assets/images/rss_small.png');"
+	onmouseout="jQuery(this).attr('src', '{{ site.baseurl }}/assets/images/rss_bw_small.png');"></a></h3>
 	{% for post in site.categories.blog %}
 		<div class="block" style="background-image:url('{{ post.thumbnail }}')" 
 		onmouseover="jQuery(this).find('.post-title').show();"
@@ -25,3 +25,6 @@ onmouseout="jQuery(this).attr('src', '{{ site.baseurl }}/assets/images/rss_bw.pn
 		</div>
 	{% endfor %}
 </div>
+
+
+<div class='rss'></div>
